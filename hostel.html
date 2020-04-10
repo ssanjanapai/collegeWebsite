@@ -1,0 +1,102 @@
+<html>
+    
+    <head>
+        
+        
+            <link rel="stylesheet" href="style.css">
+        <script>
+        function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  } }</script>
+        
+   
+    </head>
+    <body> <div>
+     <nav class="abc">
+         
+            <ul class="r1">
+                <li class="r1"><button><a href="index.html"> HOME &nbsp;</a></button></li>
+                <li class="r1"><button><a href="about.html"> ABOUT &nbsp;</a></button></li>
+                <li class="r1"><button><a href="clubs.html"> CLUBS &nbsp;</a></button></li>
+                <li class="r1"> 
+                    <button onclick="myFunction()" class="dropbtn">DEPT</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="cse.html">CSE</a>
+        <a href="ise.html">ISE</a>
+    <a href="ece.html">ECE</a>
+    <a href="eee.html">EEE</a>
+    <a href="it.html">IT</a>
+    <a href="mech.html">MECH</a>
+    <a href="civ.html">CIVIL</a>
+    <a href="http://www.rnsitmba.ac.in/">MBA</a>
+    <a href="mca.html">MCA</a>
+    <a href="p.html">PHYSICS</a>
+    <a href="c.html">CHEMISTRY</a>
+    <a href="m.html">MATHEMATICS</a>
+    <a href="placement.html">PLACEMENTS/HR</a>
+  </div>
+</li>
+                <li class="r1"><button><a href="gallery.html">GALLERY</a></button></li>
+         </ul></nav></div><br><br>
+<center><h1>Hostel Details</h1> </center>
+    <link rel="stylesheet" href="style.css">
+    <title>
+        
+    Hostel details
+    </title>
+
+    <nav>
+    <ul>
+        <li  style=" list-style-type: none;" class="r1"><button>
+            <a href="pictures.html">Gallery</a></button></li>
+         <li  style=" list-style-type: none;" class="r1"><button>
+            <a href="register.php">Register Students</a></button></li>
+        <li  style=" list-style-type: none;" class="r1"><button>
+            <a href="hostelfees.php">Fees  Update</a></button></li>
+        </ul>
+    </nav>
+        
+
+    
+    <table>
+        <br>
+        <h3>Room fee-structure</h3>
+        <tr>
+        <td>1 person:</td>
+            <td>INR 10000</td>
+        </tr>
+        <tr>
+        <td>2 persons:</td>
+            <td>INR 8000</td>
+        </tr>
+        <tr>
+        <td>3 persons:</td>
+            <td>INR 7000</td>
+        </tr>
+        
+        
+        </table>
+      <table>
+        <h3>Mess fee-structure</h3>
+        <tr>
+        <td>Per person</td>
+            <td>INR 5000</td>
+        </tr>
+        </table>
+    
+    </body>
+
+</html>

@@ -1,0 +1,568 @@
+<!doctype html>
+<html>
+    <head> <link rel="stylesheet" href="style.css">
+        <script>
+        function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  } }</script>
+   
+    </head>
+    <body> <div>
+     <nav class="abc">
+         
+            <ul class="r1">
+                <li class="r1"><button><a href="index.html"> HOME &nbsp;</a></button></li>
+                <li class="r1"><button><a href="about.html"> ABOUT &nbsp;</a></button></li>
+                <li class="r1"><button><a href="clubs.html"> CLUBS &nbsp;</a></button></li>
+                <li class="r1"> 
+                    <button onclick="myFunction()" class="dropbtn">DEPT</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="cse.html">CSE</a>
+        <a href="ise.html">ISE</a>
+    <a href="ece.html">ECE</a>
+    <a href="eee.html">EEE</a>
+    <a href="it.html">IT</a>
+    <a href="mech.html">MECH</a>
+    <a href="civ.html">CIVIL</a>
+    <a href="http://www.rnsitmba.ac.in/">MBA</a>
+    <a href="mca.html">MCA</a>
+    <a href="p.html">PHYSICS</a>
+    <a href="c.html">CHEMISTRY</a>
+    <a href="m.html">MATHEMATICS</a>
+    <a href="placement.html">PLACEMENTS/HR</a>
+  </div>
+</li>
+                <li class="r1"><button><a href="gallery.html">GALLERY</a></button></li>
+         </ul></nav></div><br><br>
+<center><h1>Dept. of EIE</h1>
+    
+    <img style="height: 200px;
+  width: 200px;
+  background-color: powderblue;" src="pallavi.jpg">
+    <div>  <figcaption>HOD EIE<br> Dr.Andhe Pallavi</figcaption></div></center>
+<div><p class="lead" >The department of Electronics & Instrumentation Engg is headed by Dr. Andhe Pallavi. The department is existing right from the inception of RNSIT. The department has highly qualified, experienced & dedicated faculty, committed to impart technical knowledge using advanced pedagogic methodologies
+
+Department of Electronics & Instrumentation Engg is also a recognized VTU R&D center where 05 candidates are pursuing Ph.D.
+
+The department has full-fledged labs catering to VTU curriculum & beyond. Some of our labs are Analog Electronics & IC Labs, Logic Design Lab, Instrumentation Lab, Process control Lab (incorporating PC based level, flow,temperature & pressure control loops, PLCs (GE FANUC based), SCADA, LabVIEW based experiments, sensors & their signal conditioning, etc), DSP Lab (CCS &TMS320C6711 DSKs), VHDL & Verilog Lab (XC2S 200E Spartan kits), Microcontroller lab (8051, MSP 430 and PIC 16F877 based), Control systems Lab, ARM Processor Lab (CORTEX M3 based) etc. The department also features an exclusive departmental library with over 500 books donated by alumni, staff & college management.
+
+The department has an exclusive ISOI (Instrument Society of India Students Chapter) from 2007, with a membership of over 100 students annually. IT students are also active members of IEEE and ISTE students chapters at RNSIT.
+
+The department also has an excellent placement record with students being placed in companies such as Infosys. Tech-Mahindra, Wipro, Yokagawa, TCS, National Instruments, Cisco, etc. Some of our alumni have also been inducted into Indian air force, naval & army services.
+
+The department also contributes healthily to the college's sports team's such basket ball, cricket, football, athletics and have won many intercollegiate & State level competitions.</p></div>
+    <center><h3>Teaching Staff</h3></center>&nbsp;&nbsp;&nbsp;<a href="form.html">Teacher's Login</a>
+    </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <h6>Dr. Andhe Pallavi</h6>
+    <p>Professor & HoD</p>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Details
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Dr. Andhe Pallavi</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+            
+         Name:	Dr. Andhe Pallavi<br>
+Designation:	Professor & HoD<br>
+Qualification:	BE (Instrumentation), M E(EC), PhD<br>
+Total Experience:	20 years<br>
+Research Interests:	Signal Processing, Network Analysis, Instrumentation, Neural Networks, Fuzzy Logic, Communication<br>
+Projects:	23 PG projects guided and completed<br>
+Papers:	Published more than 60 Technical publications in national, international conferences and journals<br>
+Life member of ISOI & ISTE societies, previously IEEE member<br>
+Chaired sessions at national and International conferences<br>
+Delivered talks in UGC sponsored FDP on DMP at Mount Carmel, 8051 architecture & interfacing at VKIT, signals & systems introduction at RNSIT and TEQIP sponsored workshop on neural networks at PESIT, Drives using MATLAB at GAT,RNSIT,RVCE,Signal Processing using MATLAB at KSIT.<br>
+Books: Published	Signals & Systems (IK International Limited in 2008)<br>
+Microcontrollers and Applications (Sanguine Technical publishers in 2009)<br>
+8051 and MSP430 Microcontrollers (Elsevier Publications in Jan 2012)<br>
+Digital signal processors- Architecture, Programming & Applications (Pearson Publishers in 2011)<br>
+Other Achievements	Gold medal in M E, â€œBest Teacher Awardâ€ for the year 2006-07 at RNSIT<br>
+Conferred with Academic Excellence Shield for the year 2007-2008 at RNSIT<br>
+Successfully guided one PhD candidate under VTU<br>
+Currently guiding 6 PhD students under VTU<br>
+Member of BOS and BOE at VTU and autonomous colleges - RVCE, BMSCE & Dr. AIT<br>
+Coordinator of more than 15 workshops and STTPs<br>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h6>Mr. G N Srikanth</h6>
+    <p>Associate Professor</p>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
+    Details
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Mr. G N Srikanth</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+       Name:	Mr. G N Srikanth<br>
+Designation:	Associate Professor<br>
+Qualification:	B.E, M.Tech<br>
+Total Experience:	3.5 Years of R&D,10 years of teaching. Pursing-Ph.D<br>
+Research Interests:	Control systems,Process Instrumentation<br>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h6>Mr. P Manohar</h6>
+    <p>Associate Professor</p>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
+    Details
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal2">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Mr. P Manohar</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+Name:	Mr. P Manohar<br>
+Designation:	Associate Professor<br>
+Qualification:	M.Tech, Ph.D-Pursuing<br>
+Total Experience:	14years<br>
+Research Interests:	Bio Medical Instrumentation.<br>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h6>Mrs. Madhura G</h6>
+    <p>Asst. professor</p>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">
+    Details
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal3">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Mrs. Madhura G</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+       Name:	Mrs. Madhura G<br>
+Designation:	Assistant Professor<br>
+Qualification:	B.E., M.Tech, Ph.D - Pursuing<br>
+Total Experience:	11 years<br>
+Research Interests:	Embedded System, Image Processing<br>
+Email:	madhura.g@rnsit.ac.in<br>
+
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h6>	Mrs. Savita S J</h6>
+    <p>Associate Professor</p>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">
+    Details
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal4">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">	Mrs. Savita S J</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+      Name:	Mrs. Savita S J<br>
+Designation:	Assisant Professor<br>
+Qualification:	B.E,M.Tech<br>
+Total Experience:	6 years<br>
+Research Interests:	Digital Electronics<br>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h6>Mrs. Latha P</h6>
+    <p>Asst. Professor</p>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal5">
+    Details
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal5">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Mrs. Latha P</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+       Name:	Mrs. Latha P<br>
+Designation:	Assistant Professor<br>
+Qualification:	B.E, M.Tech<br>
+Total Experience:	5 years of teaching,8 years Industry<br>
+Research Interests:	VLSI AND BIOMEDICAL<br>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h6>Dr. MalliKarjun H M</h6>
+    <p>Assistant Professor</p>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal6">
+    Details
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal6">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Dr. MalliKarjun H M</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+       Name:	Dr. MalliKarjun H M<br>
+Designation:	Assistant Professor<br>
+Qualification:	BE, MS, Ph.D<br>
+Total Experience:	Teaching 10 years, Industry 1 year 5 Months<br>
+Experience in RNSIT:	Teaching 9 years 8 Months<br>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h6>Mr.Chetan Ghatage</h6>
+    <p>Assistant Professor</p>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal7">
+    Details
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal7">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Mr.Chetan Ghatage</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         Name:	Mr.Chetan Ghatage<br>
+Designation:	Assistant Professor<br>
+Qualification:	M.Tech<br>
+Total Experience:	5 years of teaching<br>
+Research Interests:	Power Electronics<br>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h6>	Ms. Sneha G Chachadi</h6>
+    <p>Assistant Professor</p>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal8">
+    Details
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal8">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">	Ms. Sneha G Chachadi</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+    Name:	Ms. Sneha G Chachadi<br>
+Designation:	Assisant Professor<br>
+Qualification:	B.E, M.Tech<br>
+Total Experience:	5 years of teaching<br>
+Experience in RNSIT:	5 years of teaching<br>
+Areas of Interest:	Communication<br>
+Email:	sneha.gc@rnsit.ac.in<br>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>

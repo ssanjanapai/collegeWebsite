@@ -1,0 +1,301 @@
+<!doctype html>
+<html>
+    <head>
+         <link rel="stylesheet" href="style.css">
+        <script>
+        function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  } }</script>
+   
+    </head>
+    <body> <div>
+     <nav class="abc">
+         
+            <ul class="r1">
+                <li class="r1"><button><a href="index.html"> HOME &nbsp;</a></button></li>
+                <li class="r1"><button><a href="about.html"> ABOUT &nbsp;</a></button></li>
+                <li class="r1"><button><a href="clubs.html"> CLUBS &nbsp;</a></button></li>
+                <li class="r1"> 
+                    <button onclick="myFunction()" class="dropbtn">DEPT</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="cse.html">CSE</a>
+        <a href="ise.html">ISE</a>
+    <a href="ece.html">ECE</a>
+    <a href="eee.html">EEE</a>
+    <a href="it.html">IT</a>
+    <a href="mech.html">MECH</a>
+    <a href="civ.html">CIVIL</a>
+    <a href="http://www.rnsitmba.ac.in/">MBA</a>
+    <a href="mca.html">MCA</a>
+    <a href="p.html">PHYSICS</a>
+    <a href="c.html">CHEMISTRY</a>
+    <a href="m.html">MATHEMATICS</a>
+    <a href="placement.html">PLACEMENTS/HR</a>
+  </div>
+</li>
+                <li class="r1"><button><a href="gallery.html">GALLERY</a></button></li>
+         </ul></nav></div><br><br>
+        <center><h1>Dept. of Civil Engineering</h1>
+    
+    <img style="height: 200px;
+  width: 200px;
+  background-color: powderblue;" src="civhod.jpg">
+    <div>  <figcaption>HOD Civil Dept. <br> Dr. Pratap Kumar M T</figcaption></div></center>
+
+<div><p class="lead" >The Department of Civil Engineering is proud to offer Bachelor of Engineering course in Civil Engineering under VTU from 2014-15 with an initial instake of 60 students, under the guidance of the great visionary in Civil Engingeering constructions, Dr. R N Shetty.
+
+Civil Engineering Department of RNS Institute of Technology, Bangalore, aims to be a centre of excellence in technical education and innovative applications, providing excellent professionals with integrity, besides being useful to all the stakeholders.
+
+The department aims to be the best-rated department in college and in the university disseminating globally acceptable education, effective industrial consultancy and relevant research output.</p></div>
+    <center><h3>Teaching Staff</h3></center>&nbsp;&nbsp;&nbsp;<a href="form.html">Teacher's Login</a>
+    </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <h6>Dr. Pratap Kumar M T</h6>
+    <p>Professor & HoD</p>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Details
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Dr. Pratap Kumar M T</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+            
+        
+Name:	Dr. Pratap Kumar M T<br>
+Designation:	Professor &HOD<br>
+Qualification:	B.E ,M.Tech, P.hD<br>
+Total Experience:	Teaching:29 Years , Industry:1 Year<br>
+Experience in RNSIT:	3 Years<br>
+Papers:	Published over 54 papers in International and National journals as well as International and national conferences/seminars, Peer Reviewed Journals <br>29
+Research & Guidence	6 Scholars, 1 has been awarded
+Areas of Interest:	Soil Dynamics, Ground Improvement Techniques; Foundations; Concrete Technology<br>
+
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h6>Ms. Rumpa Sarkhel</h6>
+    <p>Associate Professor</p>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
+    Details
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Ms. Rumpa Sarkhel</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+       Name:	Ms. Rumpa Sarkhel<br>
+Email:	rumpa.sarkhel@gmail.com<br>
+Designation:	Assistant Professor<br>
+Qualification:	B.E ,M.Tech<br>
+Areas of interest:	Information technology in civil engineering, Structural Health Monitoring<br>
+Total Experience:	11 Years<br>
+Experience in RNSIT:	11 Years<br>
+Areas of Interest:	Structural Health Monitoring<br>
+Projects:	UG-02<br>
+FDPs, Conferences, Seminars and Talks	5<br>
+Other Achievements:	Best teacher award in RNSIT<br>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h6>Mr. Abhilash N R</h6>
+    <p>Assistant Professor</p>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
+    Details
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal2">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Mr. Abhilash N R</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+Name:	Mr. Abhilash N R<br>
+Email:	abhilashchayapuri@gmail.com<br>
+Designation:	Assistant Professor<br>
+Qualification:	B.E, M.E<br>
+Areas of interest:	Water supply engineering, Waste water treatment management, Industrial waste water treatments
+Projects:	"Self Depuration Competence of Natuarl Stream" under K.S.C.S.T-41st Series, 2018<br>
+Total Experience:	3 Years 4 Months<br>
+Experience in RNSIT:	3 Years 4 Months<br>
+FDPs, Conferences, Seminars and Talks	3<br>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h6>Ms. Apoorva S</h6>
+    <p>Asst. professor</p>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">
+    Details
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal3">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Ms. Apoorva S</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+     Name:	Ms. Apoorva S<br>
+Email:	apoorva.alankar@gmail.com<br>
+Designation:	Assistant Professor<br>
+Qualification:	B.E, M.Tech( structural engineering)<br>
+Areas of interest:	Structural Engg.,Retrofitting of Stuctures<br>
+Papers:	1<br>
+Projects:	UG-1
+FDPs, Conferences, Seminars and Talks	3<br>
+Total Experience:	6.5 Years<br>
+Experience in RNSIT:	3.5 Years<br>
+
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>
